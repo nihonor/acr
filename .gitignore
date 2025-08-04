@@ -1,0 +1,90 @@
+# Ignore everything by default
+*
+
+# Allow Python files
+!*.py
+
+# Allow essential project files
+!.gitignore
+!README.md
+!requirements.txt
+!setup.py
+!pyproject.toml
+
+# Allow specific directories if needed
+!__pycache__/
+!__pycache__/*.py
+
+# Allow virtual environment if you want to include it
+# !venv/
+# !venv/Scripts/
+# !venv/Lib/
+
+# Explicitly ignore common files that shouldn't be in repo
+*.xlsx
+*.xls
+*.csv
+*.json
+*.log
+*.tmp
+*.temp
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore pip cache
+.pip/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Ignore mypy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json 
